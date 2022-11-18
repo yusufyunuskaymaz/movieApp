@@ -32,7 +32,7 @@ const MovieCard = ({poster_path,title,overview,vote_average,id}) => {
       loading="lazy"
       src={poster_path ? IMG_API + poster_path : defaultImage}
       alt="movie-card"
-      style={{opacity:"0.01"}}
+      style={{opacity:"0.4"}}
     />
     <div className="flex align-baseline justify-between p-1 text-white">
       <h5>{title}</h5>
