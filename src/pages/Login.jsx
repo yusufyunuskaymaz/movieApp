@@ -28,7 +28,7 @@ const Login = () => {
       >
         <form onSubmit={handleSubmit} className="absolute inset-[2px] rounded-[8px] bg-[#28292d] z-[10] form flex flex-col p-20">
           <h2 className="text-[#ff4b45] text-2xl font-[500] text-center tracking-[0.1em]">
-            Sign Up
+           Login
           </h2>
         
           <div className="relative w-[300px] mt-[35px] inputbox">
